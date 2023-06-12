@@ -7,6 +7,7 @@ const imageSchema = new mongoose.Schema({
     },
     prompt: String,
     imageUrl: String,
+    downloaded: Boolean,
     createdAt:{
         type: Date,
         default: Date.now
